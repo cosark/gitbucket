@@ -35,6 +35,14 @@ For more information about installation on Mac or Windows Server (with IIS), or 
 
 To upgrade GitBucket, replace `gitbucket.war` with the new version, after stopping GitBucket. All GitBucket data is stored in `HOME/.gitbucket` by default. So if you want to back up GitBucket's data, copy this directory to the backup location.
 
+One-Click Deploy
+--------
+
+<a href="https://repocloud.io/details/GitBucket/"><img src="https://d16t0pc4846x52.cloudfront.net/deploylobe.svg" alt="Deploy on RepoCloud" height="42"></a>
+<a href="https://railway.com/deploy/gitbucket"><img src="https://railway.com/button.svg" alt="Deploy on Railway" height="42"></a>
+
+Railway: after deploying, sign in as `root` with the `GITBUCKET_ADMIN_PASSWORD` value from the service's Variables tab; the [template page](https://railway.com/deploy/gitbucket) explains the setup.
+
 Plugins
 --------
 GitBucket has a plug-in system that allows extra functionality. Officially the following plug-ins are provided:
